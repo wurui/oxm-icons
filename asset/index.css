@@ -1,0 +1,25 @@
+.oxmod-oxm-icons {
+  /* CSS */
+}
+.oxmod-oxm-icons .icon-row {
+  display: flex;
+}
+.oxmod-oxm-icons .icon {
+  text-align: center;
+  padding: 5% 0;
+  text-decoration: none;
+  color: #666;
+}
+.oxmod-oxm-icons .icon:first-child {
+  border-left-style: none;
+}
+.oxmod-oxm-icons .icon:hover {
+  background-color: #f1f1f1;
+}
+.oxmod-oxm-icons .icon img {
+  width: 50px;
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
