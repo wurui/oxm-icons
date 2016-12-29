@@ -6,7 +6,7 @@
         <xsl:for-each select="data/icon-menu/i">
             <div class="icon-row">
                 <xsl:for-each select="i">
-                    <a class="icon" target="_blank" href="{href}" >
+                    <a class="icon" href="{href}" >
 
                         <img style="background-image:url({icon});"
                                 src="//oxm1.cc/img/blank.png" />
