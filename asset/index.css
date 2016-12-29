@@ -3,6 +3,8 @@
 }
 .oxmod-oxm-icons .icon-row {
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 .oxmod-oxm-icons .icon {
   text-align: center;
@@ -23,4 +25,11 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.oxmod-oxm-icons .icon > nobr {
+  font-size: 12px;
+  max-width: 60px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }

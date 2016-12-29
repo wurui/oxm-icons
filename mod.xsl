@@ -1,6 +1,6 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <xsl:template match="/root" name="oxm-icons">
+    <xsl:template match="/root" name="wurui.oxm-icons">
     <!-- className 'J_OXMod' required  -->
     <div class="J_OXMod oxmod-oxm-icons" ox-mod="oxm-icons">
         <xsl:for-each select="data/icon-menu/i">
@@ -9,9 +9,9 @@
                     <a class="icon" target="_blank" href="{href}" >
 
                         <img style="background-image:url({icon});"
-                                src="//momofox.com/uploads/img/a8876120-17db-11e6-b734-95ffd38867b8.png" />
+                                src="//oxm1.cc/img/blank.png" />
                         <br/>
-                        <xsl:value-of select="title"/>
+                        <nobr><xsl:value-of select="title"/></nobr>
                     </a>
                 </xsl:for-each>
             </div>

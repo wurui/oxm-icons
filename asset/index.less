@@ -2,6 +2,8 @@
   /* CSS */
   .icon-row{
     display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
   }
   .icon{
     //display: inline-block;
@@ -27,5 +29,12 @@
     }
     text-decoration: none;
     color:#666;
+    &>nobr{
+      font-size:12px;
+      max-width:60px;
+      display: inline-block;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
   }
 }
