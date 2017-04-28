@@ -9,7 +9,7 @@
                     <a class="icon" href="{href}" >
 
                         <img style="background-image:url({icon});"
-                                src="//oxm1.cc/img/blank.png" />
+                                src="//a.oxm1.cc/img/blank.png" />
                         <br/>
                         <nobr><xsl:value-of select="title"/></nobr>
                     </a>
